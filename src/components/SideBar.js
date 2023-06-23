@@ -78,11 +78,7 @@ const SideBar = () => {
             <h1 className={`${!open && 'hidden'}`}>Support this project</h1>
           </a>
         </div>
-     
-     
-      <Modal title='Setting' modalOpen={modalOpen} setModalOpen={setModalOpen}>
-        <Setting modalOpen={modalOpen} setModalOpen={setModalOpen} />
-      </Modal>
+    
     </section>
   );
 };
